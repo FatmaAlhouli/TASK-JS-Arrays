@@ -10,6 +10,13 @@
  */
 function isArrayLengthOdd(numbers) {
   // Your code here
+  const array1 = [1,2,3];
+  const array2 = [ 1,2,3,4];
+  function isArrayLengthOdd(numbers) {
+  }
+ console.log(isArrayLengthOdd([1, 2, 3]));       // Output: true
+console.log(isArrayLengthOdd([1, 2, 3, 4]));    // Output: false
+
 }
 
 /**
@@ -24,6 +31,13 @@ function isArrayLengthOdd(numbers) {
  */
 function isArrayLengthEven(numbers) {
   // Your code here
+
+  function isArrayLengthEven(numbers) {
+    return numbers.length % 2 === 0;
+  }
+ console.log(isArrayLengthEven([1, 2, 3]));       // Output: false
+console.log(isArrayLengthEven([1, 2, 3, 4]));    // Output: true
+
 }
 
 /**
@@ -36,6 +50,10 @@ function isArrayLengthEven(numbers) {
  */
 function addLailaToArray(instructors) {
   // Your code here
+  function addLailaToArray(instructors) {
+    return instructors.concat("Laila");
+  }
+  console.log(addLailaToArray(["Mshary", "Hasan"]));    // Output: ["Mshary", "Hasan", "Laila"]
 }
 
 /**
@@ -48,6 +66,8 @@ function addLailaToArray(instructors) {
  */
 function eliminateTeam(teams) {
   // Your code here
+  return array.pop ();
+  console.log (eliminateTeam(["Brazil", "Germany", "Italy"]));
 }
 
 /**
@@ -62,6 +82,12 @@ function eliminateTeam(teams) {
  */
 function secondHalfOfArrayIfItIsEven(fruits) {
   // Your code here
+  if (fruits.length % 2!===0 ){
+    return[];
+  }
+  else 
+  console.log ([fruits]);
+  
 }
 
 /**
@@ -80,4 +106,11 @@ function secondHalfOfArrayIfItIsEven(fruits) {
  */
 function youGottaCalmDown(shout) {
   // Your code here
+  if (shout.includes) {  ("!");
+const index = shot.indexof ("!");
+return shout.slice  (index+1);
+
+  }
+  console.log (youGottaCalmDown)("Taylor Schwifting!!!!!!!!!!!");
+  console.log (youGottaCalmDown)("Hellooooo");
 }
