@@ -10,7 +10,7 @@
  */
 function isArrayLengthOdd(numbers) {
   // Your code here
-  return numbers,length %2 !==0;
+  return numbers.length %2 !==0;
 }
 console.log(isArrayLengthOdd([1, 2, 3]));       // Output: true
 console.log(isArrayLengthOdd([1, 2, 3, 4]));    // Output: false
@@ -49,10 +49,11 @@ console.log(isArrayLengthEven([1, 2, 3, 4]));    // Output: true
  */
 function addLailaToArray(instructors) {
   // Your code here
-    return ["Laila"];
+  return instructors
   } 
-addLailaToArray.push ("Lailla");
-console.log(addLailaToArray(["Mshary", "Hasan"]));   
+ 
+instuctors.push("Laila")
+
 
 /**
  * eliminateTeam(teams):
